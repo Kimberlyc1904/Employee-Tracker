@@ -10,9 +10,9 @@ connection.connect((error) => {
   if (error) throw error;
   console.log(chalk.yellow.bold(`====================================================================================`));
   console.log(``);
-  console.log(chalk.cyan.bold(figlet.textSync('Employee Tracker')));
+  console.log(chalk.greenBright.bold(figlet.textSync('Employee Tracker')));
   console.log(``);
-  console.log(`                                                          ` + chalk.cyan.underline.bold('Created By: Kim Carpenter'));
+  console.log(`                                                          ` + chalk.greenBright.bold('Created By: Joseph DeWoody'));
   console.log(``);
   console.log(chalk.yellow.bold(`====================================================================================`));
   promptUser();
